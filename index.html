@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mobile Phone Essentials</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="assets/images/hero-img.webp" as="image">
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
+    <link rel="preload" href="assets/images/hero-img.webp" as="image">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+    <!--************** navigation bar ************** -->
+    <nav class="navbar navbar-expand-lg navbar-light navigation-bar sticky-top bg-white">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Logo">
+            </a>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="#">Mobile Repair</a></li>
+                            <li><a class="dropdown-item" href="#">Tablet Repair</a></li>
+                            <li><a class="dropdown-item" href="#">Laptop Repair</a></li>
+                            <li><a class="dropdown-item" href="#">Game Console Repair</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mac & Computer Repair</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile Buy & Sell</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accessories
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <!-- Action Buttons -->
+                <div class="d-flex header-btns mt-3 mt-lg-0">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        class="theme-dark-btn shadow-none">Call
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section  -->
+
+    <section class="hero-section section theme-light-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="primary-text heading-1">
+                            <span class="secondary-text text-white">Is Your Phone Broken?</span>
+                            Get It Fixed in Minutes Without the Hassle of an Appointment!
+                            </span>
+                        </h1>
+
+                        <p class="tagline text-light">
+                            Looking to repair your phone, buy a new one, or sell your old device? Visit Mobile Phone
+                            Essentials in Newcastle for fast repairs, great deals, and premium accessories!
+                        </p>
+                        <div class="hero-btn-sec mt-4 d-flex gap-3">
+                            <a href="#contact" class="theme-dark-btn">Visit Us Today</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- badges section  -->
+
+    <section class="trust-badges py-4 theme-secondary-bg m-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="badge-card text-center">
+                        <i class="bi bi-patch-check"></i>
+                        <h4>
+                            Certified Technicians
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="badge-card text-center">
+                        <i class="bi bi-alarm"></i>
+                        <h4>
+                            30-60 Minute Repairs
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="badge-card text-center mb-0">
+                        <i class="bi bi-award"></i>
+                        <h4>
+                            Warranty on Repairs
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-service section">
+        <div class="container">
+            <h2 class="heading-2 secondary-color text-center">
+                Fast & Reliable <span class="primary-text"> Repair Services</span>
+            </h2>
+            <p class="tagline text-center mt-2">
+                From cracked screens to battery replacements, we provide fast, affordable, <br>and high-quality repairs
+                for
+                all major brands.
+            </p>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="assets/images/smartphone.png" class="img-fluid" alt="">
+                    <h4>Smartphone<br> <span class="primary-text">Repair</span></h4>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/imac.png" class="img-fluid" alt="">
+                    <h4>Computer<br> <span class="primary-text">Repair</span></h4>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/sampad.png" class="img-fluid" alt="">
+                    <h4>Tablet<br> <span class="primary-text">Repair</span></h4>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/window.png" class="img-fluid" alt="">
+                    <h4>Laptop<br> <span class="primary-text">Repair</span></h4>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/playstation.png" class="img-fluid" alt="">
+                    <h4>Console<br> <span class="primary-text">Repair</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section theme-secondary-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="px-3 px-lg-0 pe-1 pe-lg-4">
+                        <h2 class="heading-2 text-white">
+                            Mobile Buy & Sell
+                        </h2>
+                        <h3 class="heading-3 primary-text mt-2">
+                            Best Deals in Newcastle
+                        </h3>
+                        <p class="para text-light  ">
+                            Looking to upgrade your phone or sell your old device? We offer great deals on new and
+                            pre-owned phones and instant cash for your old ones!
+                        </p>
+                        <h3 class="heading-3 primary-text">
+                            Why Choose Us for Mobile Sales?
+                        </h3>
+                        <ul class="theme-check-list text-light mt-3">
+                            <li>New and Pre-Owned Phones Available with Warranty.</li>
+                            <li>Sell Your Phone for Instant Cash – No hassle, fair prices.</li>
+                            <li>Top Brands Available – iPhones, Samsung, and more.</li>
+                        </ul>
+                        <div class="mt-4">
+                            <a href="#contact" class="theme-dark-btn">Explore Deals or Sell Your Phone!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-end pos-img mt-4 mt-lg-0">
+                        <img src="assets/images/buy&sale.jpg" class="img-fluid w-100" alt="POS System">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- accessories section  -->
+
+
+    <section class="section accessories-sec">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading-2 secondary-text">
+                    Upgrade Your Phone with <br> <span class="primary-text">Premium Accessories Available
+                        In-Store</span>
+                </h2>
+                <h3 class="fw-medium secondary-text mt-2">Our Accessories Includes</h3>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-lg-3">
+                    <div class="access-card">
+                        <img src="assets/images/phone-cases.png" class="img-fluid" alt="">
+                        <h4>Phone Cases</h4>
+                        <p class="para">Stylish and protective</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="access-card">
+                        <img src="assets/images/phone-protector.png" class="img-fluid" alt="">
+                        <h4>Screen Protectors</h4>
+                        <p class="para">Tempered glass for durability</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="access-card">
+                        <img src="assets/images/cable.png" class="img-fluid" alt="">
+                        <h4>Chargers & Cables</h4>
+                        <p class="para">Fast and reliable</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="access-card">
+                        <img src="assets/images/power-bank.png" class="img-fluid" alt="">
+                        <h4>Power Banks</h4>
+                        <p class="para">Portable charging solutions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <a href="#" class="theme-dark-btn">
+                    Visit Our Store for Accessories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section theme-secondary-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-5">
+                    <div class="text-end pos-img mt-4 mt-lg-0">
+                        <img src="assets/images/repair-man.png" class="img-fluid w-100" alt="POS System">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="px-3 px-lg-0 pe-1 pe-lg-4">
+                        <h2 class="heading-2 text-white">
+                            Why Choose<br>
+                            <span class="primary-text">
+                                Mobile Phone Essentials?
+                            </span>
+                        </h2>
+
+                        <p class="para text-light  ">
+                            Trusted by Newcastle residents for fast and reliable repairs, amazing deals on gadgets, and
+                            a premium range of accessories.
+                        </p>
+                        <ul class="theme-check-list text-light mt-3">
+                            <li>Fast Repairs While You Wait</li>
+                            <li>Certified Technicians</li>
+                            <li>High-Quality Parts & Devices</li>
+                            <li>No Appointment Needed</li>
+                        </ul>
+                        <div class="mt-4">
+                            <a href="#contact" class="theme-dark-btn">Call Us Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews section  -->
+    <section class="section reviews-sec theme-light-bg">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading-2 secondary-text mb-1">
+                    Real Customer <span class="primary-text"> Reviews</span>
+                </h2>
+                <p class="tagline mb-5">
+                    See what our happy customers have to say about our services.<br> We're committed to
+                    providing the best experiences!
+                </p>
+            </div>
+            <div class="row text-center">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                            class="rounded-circle shadow-1-strong" width="150" height="150" alt="Testimonial 1" />
+                    </div>
+                    <h5 class="mb-3">Sarah M.</h5>
+                    <h6 class="text-primary mb-3">Screen Replacement</h6>
+                    <p class="px-xl-3 quote">
+                        <i class="bi bi-quote"></i> “Quick, professional service! I got my iPhone screen replaced in
+                        just 30
+                        minutes.”
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            class="rounded-circle shadow-1-strong" width="150" height="150" alt="Testimonial 2" />
+                    </div>
+                    <h5 class="mb-3">James P.</h5>
+                    <h6 class="text-primary mb-3">Phone Sale</h6>
+                    <p class="px-xl-3 quote">
+                        <i class="bi bi-quote"></i> “Sold my old phone and got a great price. Highly recommend!”
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="col-md-4 mb-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            class="rounded-circle shadow-1-strong" width="150" height="150" alt="Testimonial 3" />
+                    </div>
+                    <h5 class="mb-3">Ayesha R.</h5>
+                    <h6 class="text-primary mb-3">Laptop Repair</h6>
+                    <p class="px-xl-3 quote">
+                        <i class="bi bi-quote"></i> “Friendly staff and top-notch service. My laptop is working
+                        perfectly
+                        again!”
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section  -->
+
+    <section class="contact-page-sec section">
+        <div class="container">
+            <h2 class="heading-2 secondary-text text-center mb-4">
+                Need a Repair or Want to Sell <br> <span class="primary-text">Your Phone? Get a Free Quote in
+                    Minutes!</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h2>Contact</h2>
+                                <span>Phone : 123-123-123</span>
+                                <span>Email : abc@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h2>Address</h2>
+                                <span>Mobile Phone Essentials, [Address], Newcastle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h2>Openning Hours</h2>
+                                <span>Mon-Sat: 9 AM - 8 PM</span>
+                                <span>Sun: Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contact-page-form" method="post">
+                        <h2 class="heading-2 primary-text">Get a Free Quote</h2>
+                        <form action="contact-mail.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single-input-field">
+                                        <input type="text" placeholder="Your Name" name="name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single-input-field">
+                                        <input type="email" placeholder="E-mail" name="email" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single-input-field">
+                                        <input type="text" placeholder="Phone Number" name="phone" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="single-input-field">
+                                        <input type="text" placeholder="Device Modal" name="devicemodal" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12 message-input">
+                                    <div class="single-input-field">
+                                        <textarea placeholder="Issue Description" name="description"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-2">
+                                    <p class="m-0 p-0">Preferred Contact Method</p>
+                                    <div class="btn-group btn-group-toggle mt-2" data-bs-toggle="buttons">
+                                        <label class="btn btn-outline-primary">
+                                            <input type="radio" name="contactMethod" id="whatsapp" value="whatsapp"
+                                                autocomplete="off"> WhatsApp
+                                        </label>
+                                        <label class="btn btn-outline-primary">
+                                            <input type="radio" name="contactMethod" id="email" value="email"
+                                                autocomplete="off"> Email
+                                        </label>
+                                        <label class="btn btn-outline-primary">
+                                            <input type="radio" name="contactMethod" id="phone" value="phone"
+                                                autocomplete="off"> Phone No
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="p-0 m-0 mt-4">
+                                    <button class="theme-dark-btn">
+                                        Submit Your Quote Request
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-page-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.1594300302704!2d-1.5324411999999998!3d54.9001239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7b2213aaaaab%3A0x4ecf5bf9d57d1c44!2sMobile%20Phone%20Essentials!5e0!3m2!1sen!2s!4v1736008724624!5m2!1sen!2s"
+                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer ection  -->
+
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget company-intro-widget">
+                            <a href="index.html" class="site-logo"><img src="assets/images/logo-white.png"
+                                    class="img-fluid" alt="logo"></a>
+                            <p>Fast Phone Repairs and Great Deals in Newcastle – Visit Mobile Phone Essentials for quick
+                                fixes, new phones, and premium accessories, no appointment needed.</p>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget course-links-widget ps-lg-5">
+                            <h5 class="widget-title">Important Links</h5>
+                            <ul class="courses-link-list">
+                                <li><a class="text-white" href="#">Home</a></li>
+                                <li><a class="text-white" href="#">About Us</a></li>
+                                <li><a class="text-white" href="#">Accessories</a></li>
+                                <li><a class="text-white" href="#">Contact Us</a></li>
+                                <li><a class="text-white" href="#">Buy &
+                                        Sale</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget latest-news-widget">
+                            <h5 class="widget-title">Top Services</h5>
+                            <ul class="courses-link-list">
+                                <li><a class="text-white" href="#">Mobile Repair</a></li>
+                                <li><a class="text-white" href="#">Tablet Repair</a></li>
+                                <li><a class="text-white" href="#">Laptop Repair</a></li>
+                                <li><a class="text-white" href="#">Game console Repair</a></li>
+                                <li><a class="text-white" href="#">Mac & Computer Repair</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- widget end -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget newsletter-widget">
+                            <h5 class="widget-title">Newsletter</h5>
+                            <div class="footer-newsletter">
+                                <p>Sign Up to Our Newsletter to Get Latest Updates & Services</p>
+                                <form class="news-letter-form" id="newsletter-form">
+                                    <input type="email" name="news-email" id="news-email"
+                                        placeholder="Your email address" required>
+                                    <input type="submit" value="Send">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div><!-- widget end -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-sm-left text-center">
+                        <span class="copy-right-text">© 2025 Mobile Phone Essentials All
+                            Rights Reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer-bottom end -->
+    </footer>
+
+    <script>
+        document.querySelectorAll('.btn-group .btn').forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove 'active' class from all buttons
+                document.querySelectorAll('.btn-group .btn').forEach(btn => btn.classList.remove('active'));
+
+                // Add 'active' class to the clicked button
+                button.classList.add('active');
+            });
+        });
+    </script>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -5,7 +5,7 @@
     <title>Mobile Phone Essentials</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preload" href="assets/images/hero-img.webp" as="image">
+    <link rel="preload" href="assets/images/mobile-repair-image.jpg" as="image">
     <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style/style.css">
@@ -33,11 +33,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <!-- Services Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                        <a class="nav-link dropdown-toggle active" id="servicesDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <li><a class="dropdown-item" href="mobile-repair.html">Mobile Repair</a></li>
@@ -76,218 +76,172 @@
         </div>
     </nav>
 
-    <!-- hero section  -->
+    <!-- service sero section  -->
 
-    <section class="hero-section section theme-light-bg">
+    <section class="hero-section service-hero" style=" 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 0.8) 100%), url('assets/images/smart-phone.jpg');
+    
+    ">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-9">
                     <div class="hero-content">
                         <h1 class="primary-text heading-1">
-                            <span class="secondary-text text-white">Is Your Phone Broken?</span>
-                            Get It Fixed in Minutes Without the Hassle of an Appointment!
+                            <span class="secondary-text text-white">
+                                Fast & Reliable</span>
+                            Mobile Repairs in Newcastle
                             </span>
                         </h1>
 
                         <p class="tagline text-light">
-                            Looking to repair your phone, buy a new one, or sell your old device? Visit Mobile Phone
-                            Essentials in Newcastle for fast repairs, great deals, and premium accessories!
+                            Having phone troubles? Mobile Phone Essentials offers quick and affordable repairs for all
+                            major brands. From cracked screens to battery issues, our certified technicians have you
+                            covered!
                         </p>
-                        <div class="hero-btn-sec mt-4 d-flex gap-3">
+                        <div class="hero-btn-sec mt-4 d-flex gap-3 justify-content-center">
                             <a href="#contact" class="theme-dark-btn">Visit Us Today</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4"></div>
             </div>
         </div>
     </section>
 
-    <!-- badges section  -->
+    <!-- info cards  -->
 
-    <section class="trust-badges py-4 theme-secondary-bg m-0">
+    <section class="system-info-sec section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="badge-card text-center">
-                        <i class="bi bi-patch-check"></i>
-                        <h4>
-                            Certified Technicians
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="badge-card text-center">
-                        <i class="bi bi-alarm"></i>
-                        <h4>
-                            30-60 Minute Repairs
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="badge-card text-center mb-0">
-                        <i class="bi bi-award"></i>
-                        <h4>
-                            Warranty on Repairs
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="our-service section">
-        <div class="container">
-            <h2 class="heading-2 secondary-color text-center">
-                Fast & Reliable <span class="primary-text"> Repair Services</span>
+            <h2 class="heading-2 secondary-text mb-4 text-center text-lg-start">
+                What We <span class="primary-text">Repair</span>
             </h2>
-            <p class="tagline text-center mt-2">
-                From cracked screens to battery replacements, we provide fast, affordable, <br>and high-quality repairs
-                for
-                all major brands.
-            </p>
-            <div class="service-grid">
-                <div class="service-card">
-                    <img src="assets/images/smartphone.png" class="img-fluid" alt="">
-                    <h4>Smartphone<br> <span class="primary-text">Repair</span></h4>
+            <div class="row justify-content-center gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-phone" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Cracked Screens
+                        </p>
+                        <p class="para text-light">
+                            Accidents happen, but a shattered screen doesn’t have to stay that way. We offer quick
+                            replacements.
+                        </p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="assets/images/imac.png" class="img-fluid" alt="">
-                    <h4>Computer<br> <span class="primary-text">Repair</span></h4>
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-battery-full" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Battery Issues
+                        </p>
+                        <p class="para text-light">
+                            Is your phone battery draining fast? We replace old or damaged batteries to restore your
+                            device’s performance.
+                        </p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="assets/images/sampad.png" class="img-fluid" alt="">
-                    <h4>Tablet<br> <span class="primary-text">Repair</span></h4>
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-lightning-charge" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Charging Port Repairs
+                        </p>
+                        <p class="para text-light">
+                            Having trouble charging your phone? We repair or replace damaged ports for smooth and
+                            reliable charging.
+                        </p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="assets/images/window.png" class="img-fluid" alt="">
-                    <h4>Laptop<br> <span class="primary-text">Repair</span></h4>
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-droplet" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Water Damage Repair
+                        </p>
+                        <p class="para text-light">
+                            Dropped your phone in water? Our experts repair water damage to bring your phone back to
+                            life quickly.
+                        </p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="assets/images/playstation.png" class="img-fluid" alt="">
-                    <h4>Console<br> <span class="primary-text">Repair</span></h4>
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-camera" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Camera Repairs
+                        </p>
+                        <p class="para text-light">
+                            Don’t let a broken camera ruin your moments. We repair both front and rear cameras for top
+                            brands.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-gear" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="title fw-bold text-white">
+                            Software Troubleshooting
+                        </p>
+                        <p class="para text-light">
+                            Experiencing software issues? Our team optimizes your device for smoother and faster
+                            performance.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="d-flex justify-content-center mt-4 mt-lg-5">
+            <a href="#contact" class="theme-dark-btn theme-secondary-bg">
+                Let's Get Started
+            </a>
+        </div>
     </section>
+
+    <!-- brans information  -->
 
     <section class="section theme-secondary-bg pb-0">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="px-3 px-lg-0 pe-1 pe-lg-4">
                         <h2 class="heading-2 text-white">
-                            Mobile Buy & Sell
+                            We Service
                         </h2>
                         <h3 class="heading-3 primary-text mt-2">
-                            Best Deals in Newcastle
+                            All Major Brands
                         </h3>
                         <p class="para text-light  ">
-                            Looking to upgrade your phone or sell your old device? We offer great deals on new and
-                            pre-owned phones and instant cash for your old ones!
-                        </p>
-                        <h3 class="heading-3 primary-text">
-                            Why Choose Us for Mobile Sales?
-                        </h3>
-                        <ul class="theme-check-list text-light mt-3">
-                            <li>New and Pre-Owned Phones Available with Warranty.</li>
-                            <li>Sell Your Phone for Instant Cash – No hassle, fair prices.</li>
-                            <li>Top Brands Available – iPhones, Samsung, and more.</li>
-                        </ul>
-                        <div class="mt-4">
-                            <a href="#contact" class="theme-dark-btn">Explore Deals or Sell Your Phone!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="text-end pos-img mt-4 mt-lg-0">
-                        <img src="assets/images/buy&sale.jpg" class="img-fluid w-100" alt="POS System">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- accessories section  -->
-
-
-    <section class="section accessories-sec">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="heading-2 secondary-text">
-                    Upgrade Your Phone with <br> <span class="primary-text">Premium Accessories Available
-                        In-Store</span>
-                </h2>
-                <h3 class="fw-medium secondary-text mt-2">Our Accessories Includes</h3>
-            </div>
-            <div class="row mt-5 text-center">
-                <div class="col-lg-3">
-                    <div class="access-card">
-                        <img src="assets/images/phone-cases.png" class="img-fluid" alt="">
-                        <h4>Phone Cases</h4>
-                        <p class="para">Stylish and protective</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="access-card">
-                        <img src="assets/images/phone-protector.png" class="img-fluid" alt="">
-                        <h4>Screen Protectors</h4>
-                        <p class="para">Tempered glass for durability</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="access-card">
-                        <img src="assets/images/cable.png" class="img-fluid" alt="">
-                        <h4>Chargers & Cables</h4>
-                        <p class="para">Fast and reliable</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="access-card">
-                        <img src="assets/images/power-bank.png" class="img-fluid" alt="">
-                        <h4>Power Banks</h4>
-                        <p class="para">Portable charging solutions</p>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center mt-5">
-                <a href="#" class="theme-dark-btn">
-                    Visit Our Store for Accessories
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section theme-secondary-bg pb-0">
-        <div class="container">
-            <div class="row align-items-center flex-column-reverse flex-lg-row">
-                <div class="col-lg-5">
-                    <div class="text-end pos-img mt-4 mt-lg-0">
-                        <img src="assets/images/repair-man.png" class="img-fluid w-100" alt="POS System">
-                    </div>
-                </div>
-                <div class="col-lg-6 ps-lg-5">
-                    <div class="px-3 px-lg-0 pe-1 pe-lg-4">
-                        <h2 class="heading-2 text-white">
-                            Why Choose<br>
-                            <span class="primary-text">
-                                Mobile Phone Essentials?
-                            </span>
-                        </h2>
-
-                        <p class="para text-light  ">
-                            Trusted by Newcastle residents for fast and reliable repairs, amazing deals on gadgets, and
-                            a premium range of accessories.
+                            We service a wide range of smartphone brands and models. Here are some of the top brands we
+                            specialize ins
                         </p>
                         <ul class="theme-check-list text-light mt-3">
-                            <li>Fast Repairs While You Wait</li>
-                            <li>Certified Technicians</li>
-                            <li>High-Quality Parts & Devices</li>
-                            <li>No Appointment Needed</li>
+                            <li><span class="primary-text fw-bold d-block">Apple:</span> iPhone 6, 7, 8, X, XR, XS, 11,
+                                12, 13, 14, 15, and newer models</li>
+                            <li><span class="primary-text fw-bold d-block">Samsung:</span> Galaxy S series (S6 to S23),
+                                Note series (Note 5 to Note 20), A series, and Z Fold/Flip series</li>
+                            <li><span class="primary-text fw-bold d-block">Huawei:</span> P series (P20 to P60), Mate
+                                series (Mate 10 to Mate 50), Nova series, and others</li>
+                            <li><span class="primary-text fw-bold d-block">Google Pixel:</span> Pixel 2, 3, 4, 4a, 5,
+                                5a, 6, 6a, 7, 7a, and 8 series</li>
+                            <li><span class="primary-text fw-bold d-block">Other Brands:</span> Sony Xperia, Oppo Find
+                                series, OnePlus Nord and flagship models, Vivo, Realme, and more</li>
                         </ul>
-                        <div class="mt-4">
-                            <a href="#contact" class="theme-dark-btn">Call Us Now</a>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-end pos-img mt-4 mt-lg-0">
+                        <img src="assets/images/mobile-repair-image.jpg" class="img-fluid w-100" alt="POS System">
                     </div>
                 </div>
             </div>

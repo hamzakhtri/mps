@@ -883,6 +883,10 @@ section.hero-section.service-hero {
     .contact-page-sec .col-md-4 {
         margin-bottom: 20px;
     }
+
+    section.hero-section.service-hero {
+        padding: 60px 0 60px 0;
+    }
 }
 
 @media only screen and (max-width: 690px) {

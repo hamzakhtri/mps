@@ -291,7 +291,7 @@ a {
 }
 
 section.hero-section {
-    padding: 140px 0 110px 0;
+    padding: 171px 0 110px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -747,7 +747,7 @@ section.section.reviews-sec img {
 /* ******************************* Inner Pages Styling *************************** */
 
 section.hero-section.service-hero {
-    padding: 116px 0 116px 0;
+    padding: 170px 0 116px 0;
 }
 
 
@@ -817,7 +817,7 @@ section.hero-section.service-hero {
 
 @media only screen and (max-width: 1024px) {
     section.hero-section {
-        padding: 80px 0 80px 0;
+        padding: 130px 0 80px 0;
     }
 
     .hero-section .hero-content h1 .secondary-text {
@@ -885,7 +885,7 @@ section.hero-section.service-hero {
     }
 
     section.hero-section.service-hero {
-        padding: 60px 0 60px 0;
+        padding: 154px 0 60px 0;
     }
 }
 
@@ -901,13 +901,13 @@ section.hero-section.service-hero {
     }
 
     section.hero-section {
-        padding: 70px 0 70px 0;
+        padding: 113px 0 70px 0;
     }
 }
 
 @media only screen and (max-width: 480px) {
     section.hero-section {
-        padding: 35px 0 35px 0;
+        padding: 118px 0 35px 0;
     }
 
     .hero-section .hero-content h1 .secondary-text {
@@ -932,7 +932,7 @@ section.hero-section.service-hero {
 @media only screen and (max-width: 414px) {
     .hero-section .hero-content h1 .secondary-text {
         font-size: 28px;
-        line-height: 58px;
+        line-height: 40px;
     }
 
     .hero-content h1 {
